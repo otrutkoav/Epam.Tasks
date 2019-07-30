@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProgressing", "ArrayProgressing\ArrayProgressing.csproj", "{65B04F70-4072-49DE-99DA-8DC2D75542D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B04F70-4072-49DE-99DA-8DC2D75542D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B04F70-4072-49DE-99DA-8DC2D75542D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B04F70-4072-49DE-99DA-8DC2D75542D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B04F70-4072-49DE-99DA-8DC2D75542D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A02A99-2DED-4B6B-9EEB-2A46191CBAD3}
+	EndGlobalSection
+EndGlobal
