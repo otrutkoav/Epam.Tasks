@@ -15,6 +15,9 @@ namespace CharDoubler
             StringBuilder doubler = new StringBuilder();
             StringBuilder result = new StringBuilder();
 
+            Console.WriteLine(firstStr);
+            Console.WriteLine(secondStr);
+
             for (int i = 0; i < firstStr.Length; i++)
             {
                 if (!IsSymbol(firstStr[i]))

@@ -63,6 +63,8 @@ namespace _1._6.FONT_ADJUSTMENT
             string result = String.Empty;
 
             Console.Write("Параметры надписи: ");
+
+
             for (int i = 0; i < formatList.Length; i++)
             {
 
@@ -75,6 +77,11 @@ namespace _1._6.FONT_ADJUSTMENT
             if (!string.IsNullOrEmpty(result))
             {
                 Console.WriteLine(result.Substring(0, result.Length - 2));
+            }
+
+            if (string.IsNullOrEmpty(result))
+            {
+                Console.WriteLine("None");
             }
         }
 
@@ -156,6 +163,7 @@ namespace _1._6.FONT_ADJUSTMENT
            
             ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
 
+
             if (consoleKeyInfo.Key==ConsoleKey.Escape)
             {
                 return false;
@@ -166,7 +174,7 @@ namespace _1._6.FONT_ADJUSTMENT
             }
             else
             {
-                Console.WriteLine("Ошибка!Нажмите 'Esc' для завершения программы или 'Enter' для продолжения");
+                Console.WriteLine("\nОшибка!Нажмите 'Esc' для завершения программы или 'Enter' для продолжения");
                 return IsEnd();
             }         
         }
