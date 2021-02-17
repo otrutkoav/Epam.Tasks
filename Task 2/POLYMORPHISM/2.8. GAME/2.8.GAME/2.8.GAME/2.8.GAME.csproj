@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Bonuses\Bonus.cs" />
+    <Compile Include="Entities\Bonuses\HealthBonus.cs" />
+    <Compile Include="Entities\Bonuses\IBonus.cs" />
+    <Compile Include="Entities\Bonuses\StaminaBonus.cs" />
+    <Compile Include="Entities\Entity.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\Player\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

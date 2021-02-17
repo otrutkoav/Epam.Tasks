@@ -10,7 +10,7 @@ namespace _3._3.DYNAMIC_ARRAY
     {
         static void Main(string[] args)
         {
-          
+
         }
     }
 }

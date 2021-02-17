@@ -67,7 +67,7 @@ namespace _3._3.DYNAMIC_ARRAY
 
         public DynamicArray()
         {
-            this.capacity = 8;
+            this.length = this.capacity = 8;
             this.myArray = new T[this.capacity];
         }
 
@@ -77,7 +77,7 @@ namespace _3._3.DYNAMIC_ARRAY
             {
                 throw new ArgumentOutOfRangeException();
             }
-
+            this.length=this.capacity = capacity;
             this.myArray = new T[capacity];
         }
 

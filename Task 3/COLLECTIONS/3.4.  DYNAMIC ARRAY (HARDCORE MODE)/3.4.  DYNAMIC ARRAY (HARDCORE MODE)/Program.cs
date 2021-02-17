@@ -10,14 +10,6 @@ namespace _3._4.DYNAMIC_ARRAY__HARDCORE_MODE_
     {
         static void Main(string[] args)
         {
-            DynamicArray<int> Arr = new DynamicArray<int>(20);
-
-            for (int i = 1; i <=10; i++)
-            {
-                Arr.Add(i);
-            }
-
-            var res = Arr.ToArray();
 
         }
     }

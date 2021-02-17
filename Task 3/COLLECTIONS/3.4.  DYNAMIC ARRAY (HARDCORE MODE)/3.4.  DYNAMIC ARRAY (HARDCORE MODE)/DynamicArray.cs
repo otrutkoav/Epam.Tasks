@@ -10,7 +10,7 @@ namespace _3._4.DYNAMIC_ARRAY__HARDCORE_MODE_
     public class DynamicArray<T> : IEnumerable, IEnumerable<T>, ICloneable
     {
 
-        private T[] myArray;
+        private protected T[] myArray;
         int capacity;
         int length;
 
@@ -52,7 +52,6 @@ namespace _3._4.DYNAMIC_ARRAY__HARDCORE_MODE_
             {
                 if (index < 0)
                 {
-
                     return this.myArray[this.length + index];
                 }
 
@@ -90,7 +89,7 @@ namespace _3._4.DYNAMIC_ARRAY__HARDCORE_MODE_
 
         public DynamicArray()
         {
-            this.capacity = 8;
+            this.capacity =this.length= 8;
             this.myArray = new T[this.capacity];
         }
 
@@ -100,7 +99,7 @@ namespace _3._4.DYNAMIC_ARRAY__HARDCORE_MODE_
             {
                 throw new ArgumentOutOfRangeException();
             }
-            this.capacity = capacity;
+            this.capacity=this.length = capacity;
             this.myArray = new T[capacity];
         }
 
